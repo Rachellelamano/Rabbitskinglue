@@ -397,6 +397,11 @@ body {
   
     
 }
+
+.main-logo-wrap {
+    margin-bottom: -70px;
+    margin-top: -60px;
+}
 .container-1 {
     margin: 60px auto 60px auto;
     align-items: center;
@@ -424,21 +429,6 @@ body {
 }
 
 
-.vu-text-container {
-    font-family: Montserrat;
-	font-weight: 500;
-	text-align: justify;
-	line-height: 23px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: -30px;
-    color: #3f4142;
-    padding-left: 100px;
- 
-
-}
 
 
 
@@ -858,14 +848,6 @@ footer {
         margin-top: 0px;
     }
 
-
-.vu-text-container {
-    padding-left: 0;
-    margin-left: 2%;
-    margin-right:2%;
- 
-
-}
     
 }
 
