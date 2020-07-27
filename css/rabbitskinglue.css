@@ -406,6 +406,13 @@ body {
     
 }
 
+.v-container-1 {
+    margin: -20px auto 5px auto;
+    align-items: center;
+}
+
+
+
 
 .text-container {
     font-family: Montserrat;
@@ -417,6 +424,23 @@ body {
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 30px;
+    color: #3f4142;
+    padding-left: 100px;
+ 
+
+}
+
+
+.vu-text-container {
+    font-family: Montserrat;
+	font-weight: 500;
+	text-align: justify;
+	line-height: 23px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: -30px;
     color: #3f4142;
     padding-left: 100px;
  
@@ -840,6 +864,15 @@ footer {
         width: 80%;
         margin-top: 0px;
     }
+
+
+.vu-text-container {
+    padding-left: 0;
+    margin-left: 2%;
+    margin-right:2%;
+ 
+
+}
     
 }
 
