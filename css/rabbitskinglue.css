@@ -743,12 +743,13 @@ footer {
     }
 
     .nav-below {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-flow: column;
         margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 30 auto 60px 0;
+        align-items: center;
+        
         
 
      
@@ -757,47 +758,55 @@ footer {
     }
 
     .ui-branding a {
-       
-        background-size: 98%;
-        background-position: center;
+        width: 250px;
+        background-size: 130px;
+        background-position-x: 85px;
+        margin-bottom: 3px;
+      
+     
 
        
      
     }
 
     .ui-about a {
-        
-        background-size: 98%;
-        background-position: center;
+        width: 250px;
+        background-size: 80px;
+        background-position-x: 110px;
+        margin-bottom: 3px;
       
     }
 
     
     .ui-wraps a {
-        background-size: 98%;
+        background-size: 220px;
         margin-right: 0;
-        background-position: center;
-       
+        background-position-x: 40px;
+        width: 280px;
+        margin-bottom: 3px;
     }
 
     .ui-branding a:hover {
-        background-size: 100%;
-        background-position: center;
+        width: 250px;
+        background-size: 135px;
+        background-position-x: 85px;
+      
       
     }
 
     .ui-about a:hover {
-        background-size: 100%;
-        background-position: center;
+        width: 250px;
+        background-size: 85px;
+        background-position-x: 110px;
       
     }
 
     
     .ui-wraps a:hover {
-        background-size: 100%;
+        background-size: 225px;
         margin-right: 0;
-        background-position: center;
-   
+        background-position-x: 40px;
+        width: 280px;
     }
 
 
@@ -843,6 +852,7 @@ footer {
 
     .text-container {
         padding-left: 0;
+        font-size: 11pt;
     }
     .container-1 {
         margin-top: 45px;
@@ -868,10 +878,16 @@ footer {
 
 .vu-text-container {
     padding-left: 0;
-    margin-left: 2%;
-    margin-right:2%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 350px;
  
+    font-size: 11pt;
 
+}
+
+.content-header {
+    font-size: 15pt;
 }
     
 }
